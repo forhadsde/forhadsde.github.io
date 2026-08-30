@@ -926,34 +926,38 @@ p {
 }
 
 .mini-project-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 860px;
 }
 
 .mini-project-card {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  gap: 20px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  overflow: hidden;
+  padding: 14px 18px;
   box-shadow: var(--shadow-sm);
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 .mini-project-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-2px);
   box-shadow: var(--shadow-md);
   border-color: var(--accent-border);
 }
 
 .mini-thumb {
-  display: block;
-  aspect-ratio: 16 / 9;
+  flex: 0 0 auto;
+  width: 86px;
+  height: 64px;
+  border-radius: 10px;
   overflow: hidden;
-  background: var(--surface-2);
-  border-bottom: 1px solid var(--border);
+  background: #ffffff;
+  border: 1px solid var(--border);
 }
 
 .mini-thumb img {
@@ -961,18 +965,13 @@ p {
   height: 100%;
   object-fit: cover;
   object-position: center;
-  transition: transform 0.3s ease;
-}
-
-.mini-project-card:hover .mini-thumb img {
-  transform: scale(1.04);
 }
 
 .mini-body {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  padding: 18px 20px 20px;
+  gap: 4px;
+  flex: 1;
 }
 
 .mini-body h4 {
@@ -999,7 +998,7 @@ p {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  margin-top: 28px;
+  margin-top: 24px;
   font-weight: 600;
 }
 
@@ -1169,25 +1168,26 @@ p {
 
 /* ---------- Accomplishments ---------- */
 .accomplishment-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 860px;
 }
 
 .accomplishment-card {
   display: flex;
-  flex-direction: column;
-  gap: 16px;
+  align-items: center;
+  gap: 20px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 24px;
+  padding: 18px 22px;
   box-shadow: var(--shadow-sm);
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 .accomplishment-card:hover {
-  transform: translateY(-3px);
+  transform: translateY(-2px);
   box-shadow: var(--shadow-md);
   border-color: var(--accent-border);
 }
@@ -1195,11 +1195,12 @@ p {
 .cert-logo {
   display: inline-grid;
   place-items: center;
-  width: 56px;
-  height: 56px;
-  padding: 8px;
-  border-radius: 14px;
-  background: var(--surface-2);
+  flex: 0 0 auto;
+  width: 52px;
+  height: 52px;
+  padding: 7px;
+  border-radius: 12px;
+  background: #ffffff;
   border: 1px solid var(--border);
 }
 
@@ -1212,14 +1213,15 @@ p {
 .accomplishment-body {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 4px;
   align-items: flex-start;
+  flex: 1;
 }
 
 .accomplishment-body h3 {
   font-family: var(--font-body);
   font-weight: 600;
-  font-size: 1.02rem;
+  font-size: 1.05rem;
   line-height: 1.35;
 }
 
@@ -1439,11 +1441,6 @@ p {
   .skills-grid {
     grid-template-columns: 1fr;
   }
-
-  .accomplishment-grid,
-  .mini-project-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
 }
 
 @media (max-width: 820px) {
@@ -1491,11 +1488,6 @@ p {
 
 @media (max-width: 560px) {
   .interest-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .accomplishment-grid,
-  .mini-project-grid {
     grid-template-columns: 1fr;
   }
 
