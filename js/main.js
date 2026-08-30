@@ -1,5 +1,5 @@
 /* ==========================================================================
-   MD Forhadul Islam — Portfolio
+   MD Forhadul Islam, Portfolio
    Vanilla JS: theme toggle, mobile nav, scrollspy, reveal-on-scroll.
    ========================================================================== */
 (function () {
@@ -31,7 +31,7 @@
     try {
       localStorage.setItem("theme", theme);
     } catch (e) {
-      /* storage unavailable — ignore */
+      /* storage unavailable, ignore */
     }
   }
 

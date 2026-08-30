@@ -1,5 +1,5 @@
 /* ==========================================================================
-   MD Forhadul Islam — Portfolio
+   MD Forhadul Islam, Portfolio
    Clean static site for GitHub Pages. Light/dark, responsive, no framework.
    ========================================================================== */
 
@@ -1129,7 +1129,7 @@ p {
 }
 
 .timeline-points li::before {
-  content: "—";
+  content: ",";
   position: absolute;
   left: 0;
   top: 0;
