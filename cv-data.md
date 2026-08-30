@@ -99,6 +99,15 @@ Hasan, M., Islam, F. and Sultana, T. (2024). *Real-Time Fire Navigation System U
 
 ## Professional Certifications
 
-- Certified AI Engineering Professional, IBM
-- National Certified Web Developer (Level 2), Bangladesh Technical Education Board (BTEB)
-- MikroTik Certified Network Associate (MTCNA), MikroTik
+- IBM Certified AI Engineering Professional, IBM (Coursera) — May 2020
+- Building Deep Learning Models with TensorFlow, IBM (Coursera) — May 2020
+- Deep Learning Essentials with Keras, IBM (Coursera) — May 2020
+- Deep Neural Networks with PyTorch, IBM (Coursera) — May 2020
+- Scalable Machine Learning on Big Data using Apache Spark, IBM (Coursera) — May 2020
+- Machine Learning with Python, IBM (Coursera) — May 2020
+- MikroTik Certified Network Associate (MTCNA), MikroTik — Nov 2020
+- National Certified Web Developer (NTVQF) Level-2, Bangladesh Technical Education Board (BTEB) — Dec 2019
+- BITM Certified Web Application Developer, BASIS Institute of Technology & Management (BITM) — Dec 2019
+- BITM Certified Flutter Android & iOS Application Developer, BITM — Jan 2020
+- CADD CORE Certified SOLIDWORKS Professional, CADD CORE — Jul 2020
+- Robotic Process Automation (RPA) using UI Path, Edward M. Kennedy Center (EMK) MakerLab — May 2020
